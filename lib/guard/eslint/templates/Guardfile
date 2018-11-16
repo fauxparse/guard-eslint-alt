@@ -1,0 +1,3 @@
+guard :eslint, command: 'eslint -c .eslintrc' do
+  watch(%r{.+\.jsx?$})
+end
